@@ -1,0 +1,25 @@
+{
+  "anio": "2026",
+  "dia": "VIERNES",
+  "sala": {
+    "nombre": "KINGSTON CLUB",
+    "direccion": "RÚA ROGELIO ABALDE 18",
+    "ciudad": "VIGO",
+    "horario": "1:00 — 4:30"
+  },
+  "medalla": "oro-turquesa",
+  "variantes": 6,
+  "dj": "CARAMELORARØ",
+  "rol": "DJ SET",
+  "genero": "TECHNO · HARDGROOVE",
+  "foto": "dj-humo-teal",
+  "encuadre": {
+    "x": 0.56,
+    "y": 0.3,
+    "zoom": 1.0
+  },
+  "fecha": "13.11",
+  "semana": "NOVIEMBRE · SEMANA 02",
+  "color": "#3FD8C8",
+  "color2": "#1FA89C"
+}

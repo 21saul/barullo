@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "skills": {
+    "animation-principles": {
+      "source": "iart-ai/motion-design-skills",
+      "sourceType": "github",
+      "skillPath": "skills/animation-principles/SKILL.md",
+      "computedHash": "140b00a44e08aa7649fb1cce1c48670ff2e76f3889fbac0b5311cc5bb818d7b7"
+    },
+    "blender-animation": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-animation/SKILL.md",
+      "computedHash": "9e93ff0c414012d178499ae6539aab019e201c9c9e52ca44cb5366822f29b283"
+    },
+    "blender-cameras": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-cameras/SKILL.md",
+      "computedHash": "77588f6ab83190e4194ba0d0edeec17f3126796b2c04284b8930c4b8d674c3b1"
+    },
+    "blender-export": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-export/SKILL.md",
+      "computedHash": "001aa705fbe642d53e7bb27332715b1ab4448f0ab6783e029123654009d91ebe"
+    },
+    "blender-lighting": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-lighting/SKILL.md",
+      "computedHash": "96a78dc02fe28689f402eea1f6dfa437e6cbe66d5af5cc5f87939b921154e8c9"
+    },
+    "blender-mcp": {
+      "source": "vladmdgolam/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/blender-mcp/SKILL.md",
+      "computedHash": "17797f9705a617d44f2db36c29fe4cc73053d9bbcc6cebfc67f230867e827c9c"
+    },
+    "blender-modeling": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-modeling/SKILL.md",
+      "computedHash": "66d23a57c0e11cdc21d9d06494810534354ad063c425e5848894927453ddcbd2"
+    },
+    "blender-pro-workflow": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/blender-pro-workflow/SKILL.md",
+      "computedHash": "58cce30305755cd0229996834fb9e7b7ee43f0565f7c05984cff335ec68bcd27"
+    },
+    "character-artist": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/character-artist/SKILL.md",
+      "computedHash": "01e68871ec4c7a22670f36c3a47fee2dd917778304ebf36dc7e5138675d80752"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
+    "reference-to-3d": {
+      "source": "roble3/cc-blender-skill",
+      "sourceType": "github",
+      "skillPath": "plugin/skills/reference-to-3d/SKILL.md",
+      "computedHash": "8b34d96821b649394bb9c4dba68e9dd75959318ae2819e7550f183e85a68f894"
+    },
+    "rigging": {
+      "source": "arjun988/blender-skills",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/rigging/SKILL.md",
+      "computedHash": "7d56f08b40c4d2a65e7ba8b495a13d6e4d521e1c65e79c038ccd5344744f4e11"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "27b1e8c953e26f962e3314281601959b04787edf3fd7fccadce176ff844c688d"
+    },
+    "video-motion-graphics": {
+      "source": "dylantarre/animation-principles",
+      "sourceType": "github",
+      "skillPath": "skills/01-by-domain/video-motion-graphics/SKILL.md",
+      "computedHash": "6b82db9dbef273739ac97bd34657fcd2d92420905dad40823e676671c0c85c01"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    }
+  }
+}

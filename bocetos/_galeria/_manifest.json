@@ -1,0 +1,1812 @@
+[
+ {
+  "sec": "logo",
+  "grp": "kufi",
+  "label": "wordmark blanco",
+  "kind": "img",
+  "file": "logo-kufi-wordmark-blanco.webp",
+  "w": 640,
+  "h": 215,
+  "src": "bocetos/disenos/logo/lettering-kufi/wordmark-white.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "kufi",
+  "label": "wordmark rojo",
+  "kind": "img",
+  "file": "logo-kufi-wordmark-rojo.webp",
+  "w": 640,
+  "h": 215,
+  "src": "bocetos/disenos/logo/lettering-kufi/wordmark-red.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "cromo-negro-guilloche",
+  "kind": "img",
+  "file": "logo-estilos-cromo-negro-guilloche.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/cromo-negro-guilloche/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "negro-rubi-plata",
+  "kind": "img",
+  "file": "logo-estilos-negro-rubi-plata.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/negro-rubi-plata/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-esmeralda",
+  "kind": "img",
+  "file": "logo-estilos-oro-esmeralda.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-esmeralda/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-girih-rubi",
+  "kind": "img",
+  "file": "logo-estilos-oro-girih-rubi.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-girih-rubi/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-perlas",
+  "kind": "img",
+  "file": "logo-estilos-oro-perlas.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-perlas/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-rosa-arabesco",
+  "kind": "img",
+  "file": "logo-estilos-oro-rosa-arabesco.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-rosa-arabesco/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-rosa-coral",
+  "kind": "img",
+  "file": "logo-estilos-oro-rosa-coral.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-rosa-coral/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "oro-turquesa",
+  "kind": "img",
+  "file": "logo-estilos-oro-turquesa.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/oro-turquesa/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-escamas",
+  "kind": "img",
+  "file": "logo-estilos-plata-escamas.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-escamas/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-grabada",
+  "kind": "img",
+  "file": "logo-estilos-plata-grabada.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-grabada/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-joya-rubi",
+  "kind": "img",
+  "file": "logo-estilos-plata-joya-rubi.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-joya-rubi/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-lapislazuli",
+  "kind": "img",
+  "file": "logo-estilos-plata-lapislazuli.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-lapislazuli/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-rosetas-rojo",
+  "kind": "img",
+  "file": "logo-estilos-plata-rosetas-rojo.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-rosetas-rojo/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "plata-zafiro",
+  "kind": "img",
+  "file": "logo-estilos-plata-zafiro.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/plata-zafiro/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "estilos",
+  "label": "rojo-girih-plata",
+  "kind": "img",
+  "file": "logo-estilos-rojo-girih-plata.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/rojo-girih-plata/medalla.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "lettering",
+  "label": "plata-joya-rubi",
+  "kind": "img",
+  "file": "logo-lettering-plata-joya-rubi.webp",
+  "w": 640,
+  "h": 307,
+  "src": "bocetos/disenos/logo/estilos/plata-joya-rubi/lettering.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "lettering",
+  "label": "oro-turquesa",
+  "kind": "img",
+  "file": "logo-lettering-oro-turquesa.webp",
+  "w": 640,
+  "h": 307,
+  "src": "bocetos/disenos/logo/estilos/oro-turquesa/lettering.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "lettering",
+  "label": "cromo-negro-guilloche",
+  "kind": "img",
+  "file": "logo-lettering-cromo-negro-guilloche.webp",
+  "w": 640,
+  "h": 307,
+  "src": "bocetos/disenos/logo/estilos/cromo-negro-guilloche/lettering.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "lettering",
+  "label": "rojo-girih-plata",
+  "kind": "img",
+  "file": "logo-lettering-rojo-girih-plata.webp",
+  "w": 640,
+  "h": 307,
+  "src": "bocetos/disenos/logo/estilos/rojo-girih-plata/lettering.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "formatos",
+  "label": "cinta",
+  "kind": "img",
+  "file": "logo-formatos-cinta.webp",
+  "w": 320,
+  "h": 448,
+  "src": "bocetos/disenos/logo/estilos/_formatos-medalla/med-cinta.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "formatos",
+  "label": "moneda",
+  "kind": "img",
+  "file": "logo-formatos-moneda.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/_formatos-medalla/med-moneda.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "formatos",
+  "label": "puas",
+  "kind": "img",
+  "file": "logo-formatos-puas.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/_formatos-medalla/med-puas.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "formatos",
+  "label": "pin",
+  "kind": "img",
+  "file": "logo-formatos-pin.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/estilos/_formatos-medalla/med-pin.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "cromo-negro",
+  "kind": "img",
+  "file": "logo-materiales-cromo-negro.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/cromo-negro.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "cromo-rojo",
+  "kind": "img",
+  "file": "logo-materiales-cromo-rojo.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/cromo-rojo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "esmalte-persa",
+  "kind": "img",
+  "file": "logo-materiales-esmalte-persa.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/esmalte-persa.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "hinchable",
+  "kind": "img",
+  "file": "logo-materiales-hinchable.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/hinchable.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "liquido",
+  "kind": "img",
+  "file": "logo-materiales-liquido.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/liquido.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "neumorfismo",
+  "kind": "img",
+  "file": "logo-materiales-neumorfismo.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/neumorfismo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "persa-grabado",
+  "kind": "img",
+  "file": "logo-materiales-persa-grabado.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/persa-grabado.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "plata-satinada",
+  "kind": "img",
+  "file": "logo-materiales-plata-satinada.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/plata-satinada.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "plata",
+  "kind": "img",
+  "file": "logo-materiales-plata.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/plata.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "tornasol",
+  "kind": "img",
+  "file": "logo-materiales-tornasol.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/tornasol.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "materiales",
+  "label": "vidrio-rojo",
+  "kind": "img",
+  "file": "logo-materiales-vidrio-rojo.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/materiales/vidrio-rojo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "cromo-negro-guilloche",
+  "kind": "img",
+  "file": "logo-plata-grabada-cromo-negro-guilloche.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/cromo-negro-guilloche.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "oro-girih-rubi",
+  "kind": "img",
+  "file": "logo-plata-grabada-oro-girih-rubi.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/oro-girih-rubi.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "oro-rosa-arabesco",
+  "kind": "img",
+  "file": "logo-plata-grabada-oro-rosa-arabesco.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/oro-rosa-arabesco.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "oro-turquesa-detalle",
+  "kind": "img",
+  "file": "logo-plata-grabada-oro-turquesa-detalle.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/oro-turquesa-detalle.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "oro-turquesa",
+  "kind": "img",
+  "file": "logo-plata-grabada-oro-turquesa.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/oro-turquesa.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "plata-escamas",
+  "kind": "img",
+  "file": "logo-plata-grabada-plata-escamas.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/plata-escamas.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "plata-lapislazuli",
+  "kind": "img",
+  "file": "logo-plata-grabada-plata-lapislazuli.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/plata-lapislazuli.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "plata-rosetas-rojo",
+  "kind": "img",
+  "file": "logo-plata-grabada-plata-rosetas-rojo.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/plata-rosetas-rojo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "plata-todo-rubi-detalle",
+  "kind": "img",
+  "file": "logo-plata-grabada-plata-todo-rubi-detalle.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/plata-todo-rubi-detalle.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "plata-todo-rubi",
+  "kind": "img",
+  "file": "logo-plata-grabada-plata-todo-rubi.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/plata-todo-rubi.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "plata-grabada",
+  "label": "rojo-girih-plata",
+  "kind": "img",
+  "file": "logo-plata-grabada-rojo-girih-plata.webp",
+  "w": 320,
+  "h": 154,
+  "src": "bocetos/disenos/logo/exploraciones/plata-grabada/rojo-girih-plata.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "letters-riso",
+  "kind": "img",
+  "file": "logo-prototipos-letters-riso.webp",
+  "w": 320,
+  "h": 108,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/letters-riso.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "logo-cromo",
+  "kind": "img",
+  "file": "logo-prototipos-logo-cromo.webp",
+  "w": 320,
+  "h": 200,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/logo-cromo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "logo-hinchable",
+  "kind": "img",
+  "file": "logo-prototipos-logo-hinchable.webp",
+  "w": 320,
+  "h": 200,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/logo-hinchable.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "logo-led",
+  "kind": "img",
+  "file": "logo-prototipos-logo-led.webp",
+  "w": 320,
+  "h": 200,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/logo-led.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "logo-tapiz",
+  "kind": "img",
+  "file": "logo-prototipos-logo-tapiz.webp",
+  "w": 320,
+  "h": 200,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/logo-tapiz.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "rug-riso",
+  "kind": "img",
+  "file": "logo-prototipos-rug-riso.webp",
+  "w": 320,
+  "h": 139,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/rug-riso.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "prototipos",
+  "label": "stamp-riso",
+  "kind": "img",
+  "file": "logo-prototipos-stamp-riso.webp",
+  "w": 320,
+  "h": 119,
+  "src": "bocetos/disenos/logo/exploraciones/prototipos-alfombra/stamp-riso.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "chapa-3d",
+  "label": "chapa",
+  "kind": "img",
+  "file": "logo-chapa-3d-chapa.webp",
+  "w": 420,
+  "h": 420,
+  "src": "bocetos/disenos/logo/chapa-3d/barullo_chapa.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "chapa-3d",
+  "label": "largo",
+  "kind": "img",
+  "file": "logo-chapa-3d-largo.webp",
+  "w": 420,
+  "h": 182,
+  "src": "bocetos/disenos/logo/chapa-3d/barullo_largo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "chapa-3d",
+  "label": "avatar_512",
+  "kind": "img",
+  "file": "logo-chapa-3d-avatar_512.webp",
+  "w": 420,
+  "h": 420,
+  "src": "bocetos/disenos/logo/chapa-3d/barullo_avatar_512.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "medalla-puas",
+  "label": "v2_lockup_red",
+  "kind": "img",
+  "file": "logo-medalla-puas-v2_lockup_red.webp",
+  "w": 320,
+  "h": 125,
+  "src": "bocetos/disenos/logo/medalla-puas/v2_lockup_red.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "medalla-puas",
+  "label": "v2_solo",
+  "kind": "img",
+  "file": "logo-medalla-puas-v2_solo.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/medalla-puas/v2_solo.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "medalla-puas",
+  "label": "A",
+  "kind": "img",
+  "file": "logo-medalla-puas-a.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/medalla-puas/A.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "medalla-puas",
+  "label": "B",
+  "kind": "img",
+  "file": "logo-medalla-puas-b.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/medalla-puas/B.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "medalla-puas",
+  "label": "C",
+  "kind": "img",
+  "file": "logo-medalla-puas-c.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/disenos/logo/medalla-puas/C.png"
+ },
+ {
+  "sec": "logo",
+  "grp": "chapa-3d",
+  "label": "chapa loop",
+  "kind": "video",
+  "file": "logo-chapa-3d-chapa-loop.mp4",
+  "w": 480,
+  "h": 480,
+  "src": "bocetos/disenos/logo/chapa-3d/barullo_chapa_loop.mp4"
+ },
+ {
+  "sec": "mascota",
+  "grp": "refs",
+  "label": "frente",
+  "kind": "img",
+  "file": "mascota-refs-frente.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/disenos/mascota/ref-frente.png"
+ },
+ {
+  "sec": "mascota",
+  "grp": "refs",
+  "label": "espalda",
+  "kind": "img",
+  "file": "mascota-refs-espalda.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/disenos/mascota/ref-espalda.png"
+ },
+ {
+  "sec": "mascota",
+  "grp": "refs",
+  "label": "halo-cadena",
+  "kind": "img",
+  "file": "mascota-refs-halo-cadena.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/disenos/mascota/ref-halo-cadena.png"
+ },
+ {
+  "sec": "mascota",
+  "grp": "final",
+  "label": "poster",
+  "kind": "img",
+  "file": "mascota-final-poster.webp",
+  "w": 480,
+  "h": 480,
+  "src": "public/media/brand/diablillo/poster.png"
+ },
+ {
+  "sec": "mascota",
+  "grp": "final",
+  "label": "loop",
+  "kind": "video",
+  "file": "mascota-final-loop.mp4",
+  "w": 480,
+  "h": 480,
+  "src": "public/media/brand/diablillo/loop.webm"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "colgante",
+  "kind": "video",
+  "file": "web-marca-colgante.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-pendant-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "alfombra voladora",
+  "kind": "video",
+  "file": "web-marca-alfombra-voladora.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/hero-rug-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "hero loop",
+  "kind": "video",
+  "file": "web-marca-hero-loop.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/hero-loop-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje v1",
+  "kind": "video",
+  "file": "web-marca-personaje-v1.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-character-v1-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje v2",
+  "kind": "video",
+  "file": "web-marca-personaje-v2.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-character-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje v4",
+  "kind": "video",
+  "file": "web-marca-personaje-v4.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-character-v4-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje v5",
+  "kind": "video",
+  "file": "web-marca-personaje-v5.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-character-v5-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje cyber",
+  "kind": "video",
+  "file": "web-marca-personaje-cyber.mp4",
+  "w": 640,
+  "h": 274,
+  "src": "public/media/brand/hero-character-cyber-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje rosa",
+  "kind": "video",
+  "file": "web-marca-personaje-rosa.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/hero-character-pink-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "personaje vector",
+  "kind": "video",
+  "file": "web-marca-personaje-vector.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/hero-character-vector-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "fondo bloom",
+  "kind": "video",
+  "file": "web-marca-fondo-bloom.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/bg-bloom-drift-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "marca",
+  "label": "fondo cromo liquido",
+  "kind": "video",
+  "file": "web-marca-fondo-cromo-liquido.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/brand/bg-liquid-chrome-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "secciones",
+  "label": "club",
+  "kind": "video",
+  "file": "web-secciones-club.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/heroes/club-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "secciones",
+  "label": "entradas",
+  "kind": "video",
+  "file": "web-secciones-entradas.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/heroes/entradas-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "secciones",
+  "label": "propon",
+  "kind": "video",
+  "file": "web-secciones-propon.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/heroes/propon-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "secciones",
+  "label": "contacto",
+  "kind": "video",
+  "file": "web-secciones-contacto.mp4",
+  "w": 640,
+  "h": 360,
+  "src": "public/media/heroes/contacto-wide.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "demos",
+  "label": "flyer animado",
+  "kind": "video",
+  "file": "web-demos-flyer-animado.mp4",
+  "w": 360,
+  "h": 360,
+  "src": "public/media/brand/flyer-anim-demo.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "demos",
+  "label": "story evento",
+  "kind": "video",
+  "file": "web-demos-story-evento.mp4",
+  "w": 360,
+  "h": 640,
+  "src": "public/media/brand/story-event-demo.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "demos",
+  "label": "alfombra ig",
+  "kind": "video",
+  "file": "web-demos-alfombra-ig.mp4",
+  "w": 480,
+  "h": 480,
+  "src": "bocetos/animaciones/alfombra/rug/renders/barullo-alfombra-ig-1080.mp4"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "cromo-negro-guilloche",
+  "kind": "img",
+  "file": "web-medallas-cromo-negro-guilloche.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/cromo-negro-guilloche.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "negro-rubi-plata",
+  "kind": "img",
+  "file": "web-medallas-negro-rubi-plata.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/negro-rubi-plata.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "oro-girih-rubi",
+  "kind": "img",
+  "file": "web-medallas-oro-girih-rubi.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/oro-girih-rubi.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "oro-rosa-arabesco",
+  "kind": "img",
+  "file": "web-medallas-oro-rosa-arabesco.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/oro-rosa-arabesco.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "plata-joya-rubi",
+  "kind": "img",
+  "file": "web-medallas-plata-joya-rubi.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/plata-joya-rubi.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "medallas",
+  "label": "plata-rosetas-rojo",
+  "kind": "img",
+  "file": "web-medallas-plata-rosetas-rojo.webp",
+  "w": 280,
+  "h": 280,
+  "src": "public/media/brand/medallas/plata-rosetas-rojo.webp"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "band-led",
+  "kind": "img",
+  "file": "web-texturas-band-led.webp",
+  "w": 360,
+  "h": 14,
+  "src": "bocetos/animaciones/alfombra/texturas/band-led.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "band-riso",
+  "kind": "img",
+  "file": "web-texturas-band-riso.webp",
+  "w": 360,
+  "h": 14,
+  "src": "bocetos/animaciones/alfombra/texturas/band-riso.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "carpet-ember",
+  "kind": "img",
+  "file": "web-texturas-carpet-ember.webp",
+  "w": 360,
+  "h": 504,
+  "src": "bocetos/animaciones/alfombra/texturas/carpet-ember.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "carpet-led",
+  "kind": "img",
+  "file": "web-texturas-carpet-led.webp",
+  "w": 360,
+  "h": 504,
+  "src": "bocetos/animaciones/alfombra/texturas/carpet-led.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "carpet-riso",
+  "kind": "img",
+  "file": "web-texturas-carpet-riso.webp",
+  "w": 360,
+  "h": 504,
+  "src": "bocetos/animaciones/alfombra/texturas/carpet-riso.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "cyborg-carpet",
+  "kind": "img",
+  "file": "web-texturas-cyborg-carpet.webp",
+  "w": 360,
+  "h": 360,
+  "src": "bocetos/animaciones/alfombra/texturas/cyborg-carpet.jpg"
+ },
+ {
+  "sec": "web",
+  "grp": "texturas",
+  "label": "cyborg-riso",
+  "kind": "img",
+  "file": "web-texturas-cyborg-riso.webp",
+  "w": 360,
+  "h": 360,
+  "src": "bocetos/animaciones/alfombra/texturas/cyborg-riso.jpg"
+ },
+ {
+  "sec": "carteles",
+  "grp": "agenda",
+  "label": "story",
+  "kind": "video",
+  "file": "carteles-agenda-story.mp4",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/agenda-2026-11/2026-11_NOVIEMBRE_agenda_story.mp4"
+ },
+ {
+  "sec": "carteles",
+  "grp": "agenda",
+  "label": "feed",
+  "kind": "video",
+  "file": "carteles-agenda-feed.mp4",
+  "w": 400,
+  "h": 500,
+  "src": "bocetos/animaciones/carteles/renders/agenda-2026-11/2026-11_NOVIEMBRE_agenda_feed.mp4"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj",
+  "label": "a-medallon-carameloraro",
+  "kind": "video",
+  "file": "carteles-dj-a-medallon-carameloraro.mp4",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/a-medallon-carameloraro/story-1080.mp4"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj-feed",
+  "label": "a-medallon-carameloraro",
+  "kind": "img",
+  "file": "carteles-dj-feed-a-medallon-carameloraro.webp",
+  "w": 400,
+  "h": 500,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/a-medallon-carameloraro/feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj",
+  "label": "b-cristal-conguchu",
+  "kind": "video",
+  "file": "carteles-dj-b-cristal-conguchu.mp4",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/b-cristal-conguchu/story-1080.mp4"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj-feed",
+  "label": "b-cristal-conguchu",
+  "kind": "img",
+  "file": "carteles-dj-feed-b-cristal-conguchu.webp",
+  "w": 400,
+  "h": 500,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/b-cristal-conguchu/feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj",
+  "label": "c-recorte-bouzas",
+  "kind": "video",
+  "file": "carteles-dj-c-recorte-bouzas.mp4",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/c-recorte-bouzas/story-1080.mp4"
+ },
+ {
+  "sec": "carteles",
+  "grp": "dj-feed",
+  "label": "c-recorte-bouzas",
+  "kind": "img",
+  "file": "carteles-dj-feed-c-recorte-bouzas.webp",
+  "w": 400,
+  "h": 500,
+  "src": "bocetos/animaciones/carteles/renders/dj-plantillas/c-recorte-bouzas/feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Alfombra-Feed",
+  "kind": "img",
+  "file": "carteles-stills-alfombra-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/Alfombra-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Alfombra-Story",
+  "kind": "img",
+  "file": "carteles-stills-alfombra-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/Alfombra-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Cyborg-Feed",
+  "kind": "img",
+  "file": "carteles-stills-cyborg-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/Cyborg-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Cyborg-Story",
+  "kind": "img",
+  "file": "carteles-stills-cyborg-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/Cyborg-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjFoto-Feed",
+  "kind": "img",
+  "file": "carteles-stills-djfoto-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjFoto-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjFoto-Story",
+  "kind": "img",
+  "file": "carteles-stills-djfoto-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjFoto-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjMedalla-Feed",
+  "kind": "img",
+  "file": "carteles-stills-djmedalla-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjMedalla-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjMedalla-Story",
+  "kind": "img",
+  "file": "carteles-stills-djmedalla-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjMedalla-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjRiso-Feed",
+  "kind": "img",
+  "file": "carteles-stills-djriso-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjRiso-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "DjRiso-Story",
+  "kind": "img",
+  "file": "carteles-stills-djriso-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/DjRiso-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Medalla-Feed",
+  "kind": "img",
+  "file": "carteles-stills-medalla-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/Medalla-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Medallon1-Story",
+  "kind": "img",
+  "file": "carteles-stills-medallon1-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/Medallon1-Story.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "Medallon3-Feed",
+  "kind": "img",
+  "file": "carteles-stills-medallon3-feed.webp",
+  "w": 360,
+  "h": 450,
+  "src": "bocetos/animaciones/carteles/renders/stills/Medallon3-Feed.png"
+ },
+ {
+  "sec": "carteles",
+  "grp": "stills",
+  "label": "medalla-story",
+  "kind": "img",
+  "file": "carteles-stills-medalla-story.webp",
+  "w": 360,
+  "h": 640,
+  "src": "bocetos/animaciones/carteles/renders/stills/medalla-story.png"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-01",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-01.webp",
+  "w": 320,
+  "h": 376,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-02",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-02.webp",
+  "w": 320,
+  "h": 359,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-03",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-03.webp",
+  "w": 320,
+  "h": 412,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-04",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-04.webp",
+  "w": 320,
+  "h": 459,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-05",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-05.webp",
+  "w": 320,
+  "h": 393,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-05.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-06",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-06.webp",
+  "w": 320,
+  "h": 411,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-06.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-07",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-07.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-07.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-08",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-08.webp",
+  "w": 320,
+  "h": 248,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-08.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-09",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-09.webp",
+  "w": 320,
+  "h": 400,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-09.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-10",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-10.webp",
+  "w": 320,
+  "h": 569,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-10.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-11",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-11.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-11.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-12",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-12.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-12.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-13",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-13.webp",
+  "w": 320,
+  "h": 352,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-13.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-14",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-14.webp",
+  "w": 320,
+  "h": 314,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-14.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-15",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-15.webp",
+  "w": 320,
+  "h": 323,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-15.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-16",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-16.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-16.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "pinterest",
+  "label": "ref-17",
+  "kind": "img",
+  "file": "fotos-pinterest-ref-17.webp",
+  "w": 320,
+  "h": 320,
+  "src": "bocetos/fotos/inspiracion/pinterest/ref-17.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-01",
+  "kind": "img",
+  "file": "fotos-persas-cartel-01.webp",
+  "w": 360,
+  "h": 156,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-02",
+  "kind": "img",
+  "file": "fotos-persas-cartel-02.webp",
+  "w": 360,
+  "h": 439,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-03",
+  "kind": "img",
+  "file": "fotos-persas-cartel-03.webp",
+  "w": 360,
+  "h": 150,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-04",
+  "kind": "img",
+  "file": "fotos-persas-cartel-04.webp",
+  "w": 360,
+  "h": 384,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-05",
+  "kind": "img",
+  "file": "fotos-persas-cartel-05.webp",
+  "w": 360,
+  "h": 436,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-05.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-06",
+  "kind": "img",
+  "file": "fotos-persas-cartel-06.webp",
+  "w": 360,
+  "h": 213,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-06.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "persas",
+  "label": "cartel-07",
+  "kind": "img",
+  "file": "fotos-persas-cartel-07.webp",
+  "w": 360,
+  "h": 219,
+  "src": "bocetos/fotos/inspiracion/disenadora-carteles-persas/cartel-07.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-18-01",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-18-01.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-07-18/01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-18-02",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-18-02.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-07-18/02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-18-03",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-18-03.webp",
+  "w": 360,
+  "h": 228,
+  "src": "public/media/fotos/2025-07-18/03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-18-04",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-18-04.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-07-18/04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-25-01",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-25-01.webp",
+  "w": 360,
+  "h": 270,
+  "src": "public/media/fotos/2025-07-25/01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-25-02",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-25-02.webp",
+  "w": 360,
+  "h": 270,
+  "src": "public/media/fotos/2025-07-25/02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-25-03",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-25-03.webp",
+  "w": 360,
+  "h": 270,
+  "src": "public/media/fotos/2025-07-25/03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-07-25-04",
+  "kind": "img",
+  "file": "fotos-galeria-2025-07-25-04.webp",
+  "w": 360,
+  "h": 270,
+  "src": "public/media/fotos/2025-07-25/04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-09-05-01",
+  "kind": "img",
+  "file": "fotos-galeria-2025-09-05-01.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-09-05/01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-09-05-02",
+  "kind": "img",
+  "file": "fotos-galeria-2025-09-05-02.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-09-05/02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-09-05-03",
+  "kind": "img",
+  "file": "fotos-galeria-2025-09-05-03.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-09-05/03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-09-05-04",
+  "kind": "img",
+  "file": "fotos-galeria-2025-09-05-04.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-09-05/04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-10-10-01",
+  "kind": "img",
+  "file": "fotos-galeria-2025-10-10-01.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-10-10/01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-10-10-02",
+  "kind": "img",
+  "file": "fotos-galeria-2025-10-10-02.webp",
+  "w": 360,
+  "h": 540,
+  "src": "public/media/fotos/2025-10-10/02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-10-10-03",
+  "kind": "img",
+  "file": "fotos-galeria-2025-10-10-03.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-10-10/03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-10-10-04",
+  "kind": "img",
+  "file": "fotos-galeria-2025-10-10-04.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-10-10/04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-11-07-01",
+  "kind": "img",
+  "file": "fotos-galeria-2025-11-07-01.webp",
+  "w": 360,
+  "h": 540,
+  "src": "public/media/fotos/2025-11-07/01.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-11-07-02",
+  "kind": "img",
+  "file": "fotos-galeria-2025-11-07-02.webp",
+  "w": 360,
+  "h": 540,
+  "src": "public/media/fotos/2025-11-07/02.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-11-07-03",
+  "kind": "img",
+  "file": "fotos-galeria-2025-11-07-03.webp",
+  "w": 360,
+  "h": 540,
+  "src": "public/media/fotos/2025-11-07/03.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "galeria",
+  "label": "2025-11-07-04",
+  "kind": "img",
+  "file": "fotos-galeria-2025-11-07-04.webp",
+  "w": 360,
+  "h": 240,
+  "src": "public/media/fotos/2025-11-07/04.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "banda-directo",
+  "kind": "img",
+  "file": "fotos-demo-banda-directo.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/banda-directo.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "caras-publico",
+  "kind": "img",
+  "file": "fotos-demo-caras-publico.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/caras-publico.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "concierto-acustico",
+  "kind": "img",
+  "file": "fotos-demo-concierto-acustico.webp",
+  "w": 320,
+  "h": 480,
+  "src": "bocetos/fotos/fotos-demo/concierto-acustico.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "confeti-azul",
+  "kind": "img",
+  "file": "fotos-demo-confeti-azul.webp",
+  "w": 320,
+  "h": 214,
+  "src": "bocetos/fotos/fotos-demo/confeti-azul.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "confeti-noche",
+  "kind": "img",
+  "file": "fotos-demo-confeti-noche.webp",
+  "w": 320,
+  "h": 214,
+  "src": "bocetos/fotos/fotos-demo/confeti-noche.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "corazon-manos",
+  "kind": "img",
+  "file": "fotos-demo-corazon-manos.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/corazon-manos.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "dj-sala",
+  "kind": "img",
+  "file": "fotos-demo-dj-sala.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/dj-sala.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "escenario-ambar",
+  "kind": "img",
+  "file": "fotos-demo-escenario-ambar.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/escenario-ambar.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "humo-manos",
+  "kind": "img",
+  "file": "fotos-demo-humo-manos.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/humo-manos.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "laseres",
+  "kind": "img",
+  "file": "fotos-demo-laseres.webp",
+  "w": 320,
+  "h": 240,
+  "src": "bocetos/fotos/fotos-demo/laseres.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "manos-arriba",
+  "kind": "img",
+  "file": "fotos-demo-manos-arriba.webp",
+  "w": 320,
+  "h": 240,
+  "src": "bocetos/fotos/fotos-demo/manos-arriba.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "mesa-dj",
+  "kind": "img",
+  "file": "fotos-demo-mesa-dj.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/mesa-dj.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "multitud-violeta",
+  "kind": "img",
+  "file": "fotos-demo-multitud-violeta.webp",
+  "w": 320,
+  "h": 213,
+  "src": "bocetos/fotos/fotos-demo/multitud-violeta.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "nave-techno",
+  "kind": "img",
+  "file": "fotos-demo-nave-techno.webp",
+  "w": 320,
+  "h": 480,
+  "src": "bocetos/fotos/fotos-demo/nave-techno.jpg"
+ },
+ {
+  "sec": "fotos",
+  "grp": "demo",
+  "label": "terraza-dia",
+  "kind": "img",
+  "file": "fotos-demo-terraza-dia.webp",
+  "w": 320,
+  "h": 214,
+  "src": "bocetos/fotos/fotos-demo/terraza-dia.jpg"
+ }
+]

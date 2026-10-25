@@ -1,0 +1,4 @@
+SKIP=1 EMBERS=0 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final3 wide 0-89 eevee 64 100
+SKIP=1 EMBERS=0 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final3 wide 90-179 eevee 64 100
+SKIP=1 EMBERS=0 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final3 narrow 0-89 eevee 64 100
+SKIP=1 EMBERS=0 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final3 narrow 90-179 eevee 64 100

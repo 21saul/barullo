@@ -1,0 +1,8 @@
+Q=1 -- propon/runner.py -- C:/Users/Veintiuno/barullo-render/heroes/propon/tex C:/Users/Veintiuno/barullo-render/heroes/propon/test2 wide 30 16 50
+Q=1 -- propon/runner.py -- C:/Users/Veintiuno/barullo-render/heroes/propon/tex C:/Users/Veintiuno/barullo-render/heroes/propon/test2 narrow 30 16 50
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test3 wide 40 16 50
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test3 narrow 40 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test3 wide 20 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test3 narrow 20 16 50
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final2 narrow 0-89 eevee 64 100
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final2 narrow 90-179 eevee 64 100

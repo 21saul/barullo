@@ -1,0 +1,450 @@
+{
+ "/media/demo/banda-directo.jpg": [
+  1600,
+  1066
+ ],
+ "/media/demo/caras-publico.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/concierto-acustico.jpg": [
+  1600,
+  2400
+ ],
+ "/media/demo/confeti-azul.jpg": [
+  1600,
+  1068
+ ],
+ "/media/demo/confeti-noche.jpg": [
+  1600,
+  1068
+ ],
+ "/media/demo/corazon-manos.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/dj-sala.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/escenario-ambar.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/humo-manos.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/laseres.jpg": [
+  1600,
+  1200
+ ],
+ "/media/demo/manos-arriba.jpg": [
+  1600,
+  1200
+ ],
+ "/media/demo/mesa-dj.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/multitud-violeta.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/nave-techno.jpg": [
+  1600,
+  2400
+ ],
+ "/media/demo/terraza-dia.jpg": [
+  1600,
+  1068
+ ],
+ "/media/demo/commons/cabina-10.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/pista-01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/pista-02.jpg": [
+  1600,
+  1200
+ ],
+ "/media/demo/commons/platos-01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/platos-03.jpg": [
+  1600,
+  1068
+ ],
+ "/media/demo/commons/platos-04.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/platos-06.jpg": [
+  1600,
+  1200
+ ],
+ "/media/demo/commons/platos-07.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/platos-09.jpg": [
+  1600,
+  900
+ ],
+ "/media/demo/commons/platos-10.jpg": [
+  1600,
+  899
+ ],
+ "/media/demo/commons/sala-01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/sala-06.jpg": [
+  1600,
+  1067
+ ],
+ "/media/demo/commons/sala-09.jpg": [
+  1600,
+  1064
+ ],
+ "/media/fotos/2025-07-18/01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/02.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/03.jpg": [
+  1600,
+  1012
+ ],
+ "/media/fotos/2025-07-18/04.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/05.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/06.jpg": [
+  1600,
+  1048
+ ],
+ "/media/fotos/2025-07-18/07.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/08.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/09.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-07-18/10.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/11.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/12.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/13.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/14.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/15.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/16.jpg": [
+  1164,
+  1600
+ ],
+ "/media/fotos/2025-07-18/17.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/18.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/19.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-07-18/20.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-18/21.jpg": [
+  1600,
+  1081
+ ],
+ "/media/fotos/2025-07-18/22.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-07-25/01.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/02.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/03.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/04.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/05.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/06.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/07.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/08.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/09.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/10.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/11.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/12.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/13.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-07-25/14.jpg": [
+  1600,
+  1200
+ ],
+ "/media/fotos/2025-09-05/01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/02.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/03.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/04.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/05.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/06.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/07.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-09-05/08.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/09.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/10.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/11.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-09-05/12.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-09-05/13.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/14.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-09-05/15.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/16.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/17.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/18.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/19.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-09-05/20.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/01.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/02.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-10-10/03.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/04.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/05.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/06.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/07.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/08.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/09.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/10.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/11.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/12.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-10-10/13.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/14.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/15.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/16.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/17.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/18.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/19.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-10-10/20.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-11-07/01.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-11-07/02.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-11-07/03.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-11-07/04.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-11-07/05.jpg": [
+  1600,
+  1067
+ ],
+ "/media/fotos/2025-11-07/06.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-11-07/07.jpg": [
+  1067,
+  1600
+ ],
+ "/media/fotos/2025-11-07/08.jpg": [
+  1600,
+  1067
+ ]
+}

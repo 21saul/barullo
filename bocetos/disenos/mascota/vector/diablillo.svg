@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="head" cx="0.36" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.22" stop-color="#FFC2CF"/>
+      <stop offset="0.55" stop-color="#F0566E"/>
+      <stop offset="0.82" stop-color="#B3122E"/>
+      <stop offset="1" stop-color="#5E0716"/>
+    </radialGradient>
+    <linearGradient id="horn" x1="0" y1="1" x2="0.3" y2="0">
+      <stop offset="0" stop-color="#7A0A18"/>
+      <stop offset="0.45" stop-color="#E63B2E"/>
+      <stop offset="0.8" stop-color="#FF9A8C"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="spike" x1="0" y1="1" x2="0.4" y2="0">
+      <stop offset="0" stop-color="#8E96A3"/>
+      <stop offset="0.6" stop-color="#ECEEF2"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="0.5" cy="0.6" r="0.55">
+      <stop offset="0" stop-color="#0B2A06"/>
+      <stop offset="0.25" stop-color="#1F7A10"/>
+      <stop offset="0.6" stop-color="#5EF02A"/>
+      <stop offset="0.88" stop-color="#1C8A0C"/>
+      <stop offset="1" stop-color="#0B3305"/>
+    </radialGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD0D8"/>
+      <stop offset="0.5" stop-color="#E63B2E"/>
+      <stop offset="1" stop-color="#FF8FA0"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#FF7A8E"/>
+      <stop offset="1" stop-color="#B3122E"/>
+    </linearGradient>
+    <clipPath id="headclip"><circle cx="300" cy="330" r="148"/></clipPath>
+    <linearGradient id="low" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B0610"/>
+      <stop offset="0.18" stop-color="#7A1630"/>
+      <stop offset="0.55" stop-color="#E6F2EE"/>
+      <stop offset="1" stop-color="#5FD9B8"/>
+    </linearGradient>
+  </defs>
+
+  <g stroke="#0B0D11" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cola, tramo de detrás: sale de la nuca y abre a la derecha -->
+    <path id="tb" d="M330 400 C 420 395, 520 410, 530 455" fill="none" stroke-width="30"/>
+    <path d="M330 400 C 420 395, 520 410, 530 455" fill="none" stroke="url(#tail)" stroke-width="13"/>
+    <g transform="translate(0 -30)">
+    <!-- cuernos -->
+    <path d="M196 236 C 150 210, 128 150, 150 92 C 162 136, 196 168, 246 184 Z" fill="url(#horn)"/>
+    <path d="M404 236 C 450 210, 472 150, 450 92 C 438 136, 404 168, 354 184 Z" fill="url(#horn)"/>
+    <!-- brillo de cuerno -->
+    <path d="M160 120 C 158 150, 170 180, 196 200" fill="none" stroke="#FFFFFF" stroke-width="5" opacity="0.85"/>
+    <path d="M448 124 C 452 150, 444 176, 424 196" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.6"/>
+
+    <!-- cabeza -->
+    <circle cx="300" cy="330" r="152" fill="url(#head)"/>
+    <!-- pinchos -->
+    <path d="M238 196 L 232 150 L 260 188 Z" fill="url(#spike)" stroke-width="7"/>
+    <path d="M276 182 L 280 140 L 296 180 Z" fill="url(#spike)" stroke-width="7"/>
+    <path d="M304 180 L 320 140 L 324 182 Z" fill="url(#spike)" stroke-width="7"/>
+    <path d="M340 188 L 368 150 L 362 196 Z" fill="url(#spike)" stroke-width="7"/>
+
+    <!-- cromo: el horizonte reflejado parte la bola; abajo, suelo claro y verde agua -->
+    <g clip-path="url(#headclip)" stroke="none">
+      <path d="M140 352 C 200 330, 250 362, 300 350 C 350 338, 400 360, 460 340 L 460 490 L 140 490 Z" fill="url(#low)"/>
+      <path d="M140 352 C 200 330, 250 362, 300 350 C 350 338, 400 360, 460 340" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    </g>
+    <!-- brillos de cromo de la cabeza (sin contorno) -->
+    <path d="M200 270 C 215 225, 255 200, 300 196 C 262 214, 230 240, 214 282 Z" fill="#FFFFFF" stroke="none" opacity="0.9"/>
+    <ellipse cx="404" cy="400" rx="26" ry="12" transform="rotate(-48 404 400)" fill="#FFFFFF" stroke="none" opacity="0.55"/>
+    <path d="M190 400 C 210 450, 250 474, 300 480 C 250 486, 200 460, 180 410 Z" fill="#7EF2D2" stroke="none" opacity="0.55"/>
+
+    <!-- ojos: canica verde con párpado de ceño -->
+    <ellipse cx="240" cy="340" rx="52" ry="48" fill="#FFF7DA"/>
+    <ellipse cx="250" cy="346" rx="38" ry="38" fill="url(#eye)" stroke="none"/>
+    <ellipse cx="360" cy="340" rx="52" ry="48" fill="#FFF7DA"/>
+    <ellipse cx="350" cy="346" rx="38" ry="38" fill="url(#eye)" stroke="none"/>
+    <circle cx="238" cy="332" r="9" fill="#FFFFFF" stroke="none"/>
+    <circle cx="338" cy="332" r="9" fill="#FFFFFF" stroke="none"/>
+    <!-- párpados: tapan la parte de arriba, más bajos hacia la nariz -->
+    <path d="M180 336 C 178 296, 214 284, 250 290 C 274 294, 292 310, 300 352 C 262 328, 222 316, 180 336 Z" fill="#E8485F"/>
+    <path d="M420 336 C 422 296, 386 284, 350 290 C 326 294, 308 310, 300 352 C 338 328, 378 316, 420 336 Z" fill="#E8485F"/>
+    <path d="M194 312 C 212 298, 240 296, 266 304" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.8"/>
+
+    <!-- piercings de la ceja -->
+    <circle cx="414" cy="286" r="15" fill="none" stroke-width="5"/>
+    <circle cx="414" cy="286" r="15" fill="none" stroke="#ECEEF2" stroke-width="2.5"/>
+    <circle cx="432" cy="312" r="5" fill="#FFB18A" stroke-width="4"/>
+    <circle cx="438" cy="330" r="5" fill="#FFB18A" stroke-width="4"/>
+
+    <!-- nariz con argolla -->
+    <circle cx="300" cy="384" r="10" fill="#FFC2CF" stroke-width="6"/>
+    <circle cx="300" cy="400" r="8" fill="none" stroke-width="4"/>
+
+    <!-- boca abierta con colmillo -->
+    <path d="M272 428 C 280 416, 320 416, 328 428 C 322 446, 278 446, 272 428 Z" fill="#2A0308"/>
+    <path d="M286 437 C 296 431, 306 431, 314 437 C 306 444, 294 444, 286 437 Z" fill="#B3122E" stroke="none"/>
+    <path d="M309 423 L 316 423 L 312 436 Z" fill="#FFFFFF" stroke-width="3"/>
+
+    </g>
+    <!-- cola, lazo por delante de la barbilla y cruce en diagonal hasta la flecha -->
+    <path d="M530 455 C 540 500, 420 520, 300 518 C 170 516, 70 500, 72 462 C 74 430, 130 428, 150 440 C 200 470, 280 530, 352 566"
+          fill="none" stroke-width="30"/>
+    <path d="M530 455 C 540 500, 420 520, 300 518 C 170 516, 70 500, 72 462 C 74 430, 130 428, 150 440 C 200 470, 280 530, 352 566"
+          fill="none" stroke="url(#tail)" stroke-width="13"/>
+    <!-- arandela -->
+    <rect x="344" y="548" width="14" height="32" rx="4" transform="rotate(-62 351 564)" fill="#ECEEF2" stroke-width="6"/>
+    <!-- flecha -->
+    <path d="M360 570 L 380 532 L 384 562 L 436 586 L 352 596 Z" fill="url(#arrow)" stroke-width="8"/>
+  </g>
+
+  <!-- halo de cadena con espinas -->
+  <g transform="translate(300 90)">
+    <ellipse rx="96" ry="26" fill="none" stroke="#0B0D11" stroke-width="22"/>
+    <ellipse rx="96" ry="26" fill="none" stroke="#E63B2E" stroke-width="12" stroke-dasharray="16 6" stroke-linecap="round"/>
+    <ellipse rx="96" ry="26" fill="none" stroke="#FFB45E" stroke-width="3" stroke-dasharray="10 12" stroke-dashoffset="-3" stroke-linecap="round"/>
+    <g fill="#FF8A3D" stroke="#0B0D11" stroke-width="4" stroke-linejoin="round">
+      <path d="M-96 0 l -16 -6 l 6 14 Z"/>
+      <path d="M96 0 l 16 -6 l -6 14 Z"/>
+      <path d="M-58 -21 l -6 -16 l 14 8 Z"/>
+      <path d="M58 -21 l 6 -16 l -14 8 Z"/>
+      <path d="M0 -26 l 0 -17 l 10 13 Z"/>
+      <path d="M-66 20 l -8 15 l 15 -6 Z"/>
+      <path d="M66 20 l 8 15 l -15 -6 Z"/>
+    </g>
+  </g>
+</svg>

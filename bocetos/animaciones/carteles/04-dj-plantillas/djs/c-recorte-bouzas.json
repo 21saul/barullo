@@ -1,0 +1,25 @@
+{
+  "anio": "2026",
+  "dia": "VIERNES",
+  "sala": {
+    "nombre": "KINGSTON CLUB",
+    "direccion": "RÚA ROGELIO ABALDE 18",
+    "ciudad": "VIGO",
+    "horario": "1:00 — 4:30"
+  },
+  "medalla": "oro-turquesa",
+  "variantes": 6,
+  "dj": "BOUZAS",
+  "rol": "ALL NIGHT LONG",
+  "genero": "HOUSE · DISCO",
+  "foto": "dj-brazo-arriba",
+  "encuadre": {
+    "x": 0.5,
+    "y": 0.5,
+    "zoom": 1.0
+  },
+  "fecha": "27.11",
+  "semana": "NOVIEMBRE · SEMANA 04",
+  "color": "#E63B2E",
+  "color2": "#FF6A4D"
+}

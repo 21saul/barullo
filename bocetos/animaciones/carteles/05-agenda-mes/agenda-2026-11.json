@@ -1,0 +1,23 @@
+{
+  "_LEEME": "DATOS DE EJEMPLO (PLACEHOLDER). Cambia las noches por las reales y vuelve a renderizar: bash render.sh. Cada noche: date AAAA-MM-DD (el dia de la semana sale solo), title = genero real de la noche, tag = linea corta opcional, lineup = un DJ por linea, venue = clave de 'venues', hours opcional (si no, el de la sala), medal = estilo de medalla (oro-turquesa | oro-girih-rubi | oro-esmeralda | oro-perlas | plata-joya-rubi | oro-rosa-coral), color opcional (#RRGGBB, si no, el de la medalla).",
+  "month": "NOVIEMBRE",
+  "year": "2026",
+  "city": "VIGO",
+  "handle": "@BARULL0_",
+  "cta": "ENTRADAS · LINK EN BIO",
+  "venues": {
+    "kingston": { "name": "KINGSTON CLUB", "address": "RÚA ROGELIO ABALDE 18", "city": "VIGO", "hours": "1:00 — 4:30" },
+    "doppler": { "name": "SALA DOPPLER", "address": "VIGO", "city": "VIGO", "hours": "1:00 — 5:30" },
+    "rem": { "name": "SALA REM", "address": "RÚA NOVA DE ABAIXO 26", "city": "SANTIAGO", "hours": "0:00 — 6:00" }
+  },
+  "events": [
+    { "placeholder": true, "date": "2026-11-06", "title": "MIX", "tag": "APERTURA DE MES", "lineup": ["CARAMELORARØ", "CONGUCHU", "BOUZAS"], "venue": "kingston", "medal": "oro-turquesa" },
+    { "placeholder": true, "date": "2026-11-07", "title": "REGGAETON", "tag": "PERREO HASTA EL CIERRE", "lineup": ["808MONCHI", "YAILO"], "venue": "kingston", "medal": "oro-girih-rubi" },
+    { "placeholder": true, "date": "2026-11-13", "title": "TECHNO", "tag": "HARD · TRANCE", "lineup": ["CARAMELORARØ", "B3A"], "venue": "kingston", "medal": "plata-joya-rubi" },
+    { "placeholder": true, "date": "2026-11-14", "title": "AFROBEATS", "tag": "AFRO · AMAPIANO", "lineup": ["AMBEATS", "4CAROO"], "venue": "kingston", "medal": "oro-esmeralda" },
+    { "placeholder": true, "date": "2026-11-20", "title": "DRUM & BASS", "tag": "JUNGLE · 174 BPM", "lineup": ["BOUZAS", "GEGNELD"], "venue": "doppler", "medal": "oro-perlas" },
+    { "placeholder": true, "date": "2026-11-21", "title": "TRAP", "tag": "BARULLO × BATEA", "lineup": ["YUNG NAIK", "C0LACII", "CONGUCHU"], "venue": "kingston", "medal": "oro-turquesa" },
+    { "placeholder": true, "date": "2026-11-27", "title": "TECHNO", "tag": "CIERRE DE MES", "lineup": ["CARAMELORARØ", "PAULI"], "venue": "kingston", "medal": "plata-joya-rubi" },
+    { "placeholder": true, "date": "2026-11-28", "title": "MIX", "tag": "BARULLO EN SANTIAGO", "lineup": ["CARAMELORARØ", "CONGUCHU", "BOUZAS"], "venue": "rem", "medal": "oro-rosa-coral" }
+  ]
+}

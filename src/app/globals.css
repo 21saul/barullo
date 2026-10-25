@@ -1,0 +1,541 @@
+@import "tailwindcss";
+
+/* ===========================================================================
+   BARULLO — Sistema de diseño (v3, 21 octubre 2026)
+
+   Un club, no una discoteca. Colores del manual de marca (negro, hueso y rojo
+   Barullo); tipografía nueva pedida por el club: Anton (gorda, tipo Impact)
+   para titulares y Nunito (redondeada) para el texto y los datos.
+
+   Forma: esquinas redondeadas con continuidad. Una sola escala de radios:
+   - md (14 px): tarjetas, fotos, campos.
+   - lg (28 px): bloques grandes (CTA, footer, paneles).
+   - pill: botones y etiquetas.
+   Nada de sombras grises ni degradados decorativos: el color viene de los
+   carteles y de las fotos. Los colores de rama (r1/r2/r3) sólo identifican el
+   género de una noche.
+   =========================================================================== */
+
+@theme {
+  /* --- Color ------------------------------------------------------------- */
+  --color-void: #0b0b0b; /* negro de marca: fondo */
+  --color-coal: #131313; /* superficie */
+  --color-slate: #1c1c1c; /* superficie elevada, hover, campos */
+  --color-rule: #2a2a2a; /* filete por defecto */
+  --color-edge: #4a4945; /* filete con intención */
+
+  --color-milk: #f2efe8; /* hueso: texto principal — 17:1 */
+  --color-ash: #a8a39a; /* secundario cálido — 7,9:1 */
+  --color-dust: #8a867e; /* terciario — 5,4:1, pasa AA */
+
+  /* Rojo Barullo, el del emblema. 4,7:1 sobre negro y 4,7:1 con negro encima:
+     sobre rojo el texto va en negro (el hueso se queda en 3,6:1). */
+  --color-acid: #e63b2e;
+  --color-blood: #e63b2e;
+  --color-ember: #2a100d;
+
+  /* Ramas: «un emblema, muchas frecuencias». Sólo para el chip de género. */
+  --color-r1: #ff1e3c; /* B/01 techno — rojo láser */
+  --color-r1b: #ff2bd6; /* B/01 magenta */
+  --color-r2: #3f6bff; /* B/02 urbano — cobalto aclarado para leerse en negro */
+  --color-r2b: #3fe0ff; /* B/02 cian hielo */
+  --color-r3: #b6ff2e; /* B/03 dnb · afro — lima */
+  --color-r3b: #ffd60a; /* B/03 amarillo sol */
+
+  --color-chrome-hi: #ffffff;
+  --color-chrome-mid: #c9cbd2;
+  --color-chrome-lo: #6e7076;
+
+  /* --- Tipografía ------------------------------------------------------ */
+  --font-display: var(--font-anton), Impact, "Arial Narrow Bold", sans-serif;
+  --font-sans: var(--font-nunito), ui-rounded, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-nunito), ui-rounded, ui-sans-serif, system-ui, sans-serif;
+
+  /* --- Pantallas muy anchas (monitores de 1920 px; 1760 deja sitio a la barra de scroll) --- */
+  --breakpoint-3xl: 110rem;
+
+  /* --- Radios ------------------------------------------------------------ */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* --- Movimiento -------------------------------------------------------- */
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 150ms;
+  --dur-base: 240ms;
+  --dur-slow: 420ms;
+
+  --animate-marquee: marquee 30s linear infinite;
+  --animate-sheen: sheen 4.5s ease-in-out infinite;
+  --animate-pulse-dot: pulse-dot 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+/* Barrita de progreso del pase automático (Tira del mes). */
+@keyframes fill-x {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(-50%, 0, 0); }
+}
+@keyframes sheen {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* ===========================================================================
+   Base
+   =========================================================================== */
+
+html {
+  background: var(--color-void);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* La cabecera es fija: sin esto, los anclajes dejan el título debajo. */
+  scroll-padding-top: 7.5rem;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-milk);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Táctil. El WebView de Instagram es un navegador móvil a todos los efectos:
+   - `manipulation` quita el retardo de 300 ms del doble toque para hacer zoom.
+   - el destello azul por defecto de Android se cambia por un rojo tenue, que
+     es el único color de acento que tiene esta web.
+   El zoom con dos dedos no se toca: eso sí es accesibilidad. */
+a,
+button,
+[role="button"],
+input,
+select,
+textarea,
+summary {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgb(230 59 46 / 0.2);
+}
+
+::selection {
+  background: var(--color-acid);
+  color: var(--color-void);
+}
+
+/* Un solo anillo de foco para toda la web. Se quita el contorno del navegador
+   sólo porque se sustituye por otro más visible, nunca para hacerlo desaparecer. */
+:focus-visible {
+  outline: 2px solid var(--color-acid);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ===========================================================================
+   Aparición al hacer scroll — sin una línea de JavaScript
+
+   Se hace con `animation-timeline: view()`, que ata el progreso de la
+   animación a la posición del elemento en el viewport. Va dentro de @supports
+   a propósito: donde el navegador no lo entiende (el WebView de iOS, hoy por
+   hoy) no se aplica NADA y el contenido se ve entero desde el principio. Es la
+   diferencia con hacerlo por IntersectionObserver: allí, si el JS no corre, la
+   página se queda en blanco para el usuario y para el rastreador.
+   =========================================================================== */
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes rise {
+      from { opacity: 0; transform: translate3d(0, 24px, 0); }
+      to { opacity: 1; transform: none; }
+    }
+
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      /* Entra mientras sube los últimos 15 % del viewport y termina cuando
+         lleva 35 % recorrido: acaba antes de que el ojo llegue al elemento. */
+      animation-range: entry 15% cover 35%;
+    }
+
+    /* Escalonado del mosaico: la onda se nota sin que nadie espere por ella. */
+    .reveal-2 { animation-range: entry 15% cover 42%; }
+    .reveal-3 { animation-range: entry 15% cover 49%; }
+  }
+}
+
+/* ===========================================================================
+   Utilidades
+   =========================================================================== */
+
+/* Texto cromado. Se reserva al wordmark: es el único sitio donde el efecto
+   pertenece a la marca y no ensucia la interfaz. */
+@utility text-chrome {
+  background-image: linear-gradient(
+    174deg,
+    #ffffff 0%,
+    #e8eaef 18%,
+    #6e7076 46%,
+    #ffffff 52%,
+    #c9cbd2 66%,
+    #3a3c42 100%
+  );
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: var(--animate-sheen);
+}
+
+/* `background-clip:text` necesita color transparente. Si el navegador no lo
+   soporta — y el WebView de Instagram es el candidato — el nombre del club
+   queda invisible sobre el fondo. */
+@supports not ((-webkit-background-clip: text) or (background-clip: text)) {
+  .text-chrome {
+    background-image: none;
+    color: var(--color-milk);
+    animation: none;
+  }
+}
+
+/* Tinta. Los defs viven en `InkFilter`, montado en el layout raíz.
+
+   Sólo para titulares grandes: el filtro trabaja sobre el borde del trazo, y
+   por debajo de ~28 px se come la letra en vez de ensuciarla. No se pone
+   nunca en texto corrido, en botones ni en nada que haya que leer deprisa.
+
+   `@utility` tiene que ir en el primer nivel de la hoja: Tailwind v4 no lo
+   admite dentro de @supports. No hace falta guardia de todos modos —los
+   filtros SVG los entiende cualquier navegador vivo—; el riesgo real es que
+   falten los defs, y de eso se encarga montar `InkFilter` en el layout. */
+@utility ink {
+  filter: url(#ink-medium);
+}
+@utility ink-light {
+  filter: url(#ink-light);
+}
+@utility ink-heavy {
+  filter: url(#ink-heavy);
+}
+
+/* Tarjeta: superficie + filete + elevación muy corta. La sombra es negra y
+   corta, nunca de color y nunca difusa: una sombra ancha sobre fondo oscuro
+   no se ve como profundidad, se ve como suciedad. */
+@utility card {
+  background: var(--color-coal);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+    transition:
+    border-color var(--dur-base) var(--ease-soft),
+    background-color var(--dur-base) var(--ease-soft),
+    transform var(--dur-base) var(--ease-soft);
+}
+.card:hover {
+  border-color: var(--color-edge);
+  background: var(--color-slate);
+}
+
+/* Panel: la misma superficie que `card`, pero quieta. Para bloques que no se
+   pulsan (datos de contacto, horarios, fichas informativas): si reaccionan al
+   ratón, el usuario los intenta pulsar y no pasa nada. */
+@utility panel {
+  background: var(--color-coal);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+}
+
+/* Altura real de viewport: en el navegador de Instagram, 100vh queda tapado
+   por la barra inferior y se come el CTA. dvh es obligatorio aquí. */
+@utility min-h-screen-safe {
+  min-height: 100dvh;
+}
+@utility pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+@utility pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top));
+}
+/* La barra fija de entradas en móvil tapa el final de la página. */
+@utility pb-dock {
+  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom));
+}
+
+/* Capas a pantalla completa (el menú móvil): el scroll no se propaga a la
+   página de debajo al llegar al final. */
+@utility overscroll-lock {
+  overscroll-behavior: contain;
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Grano muy fino. Textura, no efecto. */
+@utility grain {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ===========================================================================
+   v2 — piezas del sistema de cartel
+   =========================================================================== */
+
+/* Titular en Anton: héroes, cabeceras de sección, CTA y footer. Un solo peso: sin negrita sintética aunque el
+   componente lleve `font-black`. */
+@utility wide {
+  font-family: var(--font-display);
+  font-weight: 400 !important;
+  font-synthesis: none;
+  letter-spacing: 0.015em;
+}
+
+/* Título menor (tarjetas, avisos, listados): Nunito muy gruesa en
+   mayúsculas, para no gastar Anton en todo. */
+@utility caps {
+  font-family: var(--font-sans);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Dato corto (fecha, hora, sala, precio): Nunito gruesa con cifras tabulares. */
+@utility data {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+/* Barra de datos del cartel: celdas separadas por filete, a ancho completo. */
+@utility databar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  border: 1px solid var(--color-rule);
+}
+.databar > * {
+  border-left: 1px solid var(--color-rule);
+  padding: 0.625rem 0.75rem;
+  min-width: 0;
+}
+.databar > *:first-child {
+  border-left: 0;
+}
+
+/* Visor de fotos (PhotoSwipe) con los colores del club. */
+.pswp {
+  --pswp-bg: var(--color-void);
+  --pswp-icon-color: var(--color-milk);
+  --pswp-icon-color-secondary: var(--color-void);
+  --pswp-icon-stroke-color: var(--color-void);
+  font-family: var(--font-sans);
+}
+.pswp__counter {
+  font-weight: 800;
+  opacity: 1;
+}
+.pswp__img {
+  border-radius: var(--radius-sm);
+}
+
+/* ===========================================================================
+   Héroes de sección (PageHero): el texto sube un poco al cargar, escalonado.
+   La regla global de prefers-reduced-motion lo deja en su sitio al instante.
+   =========================================================================== */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translate3d(0, 1.25rem, 0); }
+  to { opacity: 1; transform: none; }
+}
+.hero-rise > * {
+  animation: hero-rise 0.9s var(--ease-soft) both;
+}
+.hero-rise > *:nth-child(2) { animation-delay: 0.08s; }
+.hero-rise > *:nth-child(3) { animation-delay: 0.18s; }
+.hero-rise > *:nth-child(4) { animation-delay: 0.28s; }
+
+/* ===========================================================================
+   Pantalla de salidas (DepartureBoard, héroe de /agenda).
+   Cada casilla son dos mitades recortadas con clip-path. Al cambiar de letra
+   cae la hoja de arriba (la letra vieja) y sube la de abajo (la nueva), con
+   la bisagra en el centro, como en una Solari de verdad.
+   =========================================================================== */
+.board {
+  --flap-w: clamp(0.8rem, 3.4vw, 1.32rem);
+  --flap-h: calc(var(--flap-w) * 1.5);
+  --flap-gap: 3px;
+  --flap-dur: 80ms;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: clamp(0.75rem, 2vw, 1.4rem);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, #161616, #0d0d0d);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.06),
+    0 0 0 1px var(--color-rule),
+    0 40px 120px -20px rgb(230 59 46 / 0.35);
+}
+.board-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-acid);
+  color: var(--color-void);
+  font-weight: 900;
+  font-size: clamp(0.7rem, 1.4vw, 0.85rem);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.board-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.board-row {
+  display: flex;
+  gap: calc(var(--flap-w) * 0.55);
+}
+.flap {
+  position: relative;
+  display: block;
+  width: var(--flap-w);
+  height: var(--flap-h);
+  perspective: 12rem;
+  font-family: var(--font-display);
+  font-size: calc(var(--flap-h) * 0.78);
+  line-height: var(--flap-h);
+  text-align: center;
+}
+.flap-half {
+  position: absolute;
+  inset: 0;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #232323 0%, #1a1a1a 50%, #141414 50%, #101010 100%);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.04);
+  backface-visibility: hidden;
+}
+.flap-top { clip-path: inset(0 0 50% 0); }
+.flap-bottom { clip-path: inset(50% 0 0 0); }
+/* la bisagra */
+.flap::after {
+  content: "";
+  position: absolute;
+  inset: calc(50% - 0.5px) 0 auto;
+  height: 1px;
+  background: rgb(0 0 0 / 0.9);
+  z-index: 3;
+}
+.flap-leaf-top {
+  z-index: 2;
+  transform-origin: 50% 50%;
+  animation: flap-down var(--flap-dur) ease-in both;
+}
+.flap-leaf-bottom {
+  z-index: 2;
+  transform-origin: 50% 50%;
+  animation: flap-up var(--flap-dur) ease-out var(--flap-dur) both;
+}
+@keyframes flap-down {
+  from { transform: rotateX(0deg); filter: brightness(1); }
+  to { transform: rotateX(-90deg); filter: brightness(0.5); }
+}
+@keyframes flap-up {
+  from { transform: rotateX(90deg); filter: brightness(1.6); }
+  to { transform: rotateX(0deg); filter: brightness(1); }
+}
+
+/* ===========================================================================
+   Muro de fotos (GalleryScene, héroe de /galeria).
+   =========================================================================== */
+.gwall {
+  position: absolute;
+  inset: -30% -20%;
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.5rem, 1.2vw, 1rem);
+  transform: perspective(1600px) rotateX(24deg) rotateZ(-11deg) scale(1.05);
+  transform-origin: 60% 40%;
+}
+.gwall-col {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.5rem, 1.2vw, 1rem);
+  width: clamp(8.5rem, 30vw, 15rem);
+  animation: gwall-scroll var(--dur, 80s) linear infinite var(--dir, normal);
+}
+.gwall-photo {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  flex: none;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--color-slate);
+}
+/* Virado: la foto en grises y el rojo del club por encima. */
+.gwall-photo img {
+  filter: grayscale(1) contrast(1.15) brightness(0.7);
+  animation: gwall-flash-img 30s var(--flash, 0s) infinite;
+}
+.gwall-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-acid);
+  mix-blend-mode: multiply;
+  animation: gwall-flash-tint 30s var(--flash, 0s) infinite;
+}
+@keyframes gwall-scroll {
+  to { transform: translate3d(0, -50%, 0); }
+}
+/* El flash: un destello blanco breve y unos segundos en color. */
+@keyframes gwall-flash-img {
+  0%, 9%, 100% { filter: grayscale(1) contrast(1.15) brightness(0.7); }
+  0.6% { filter: grayscale(0) contrast(1) brightness(2.4); }
+  2%, 6% { filter: grayscale(0) contrast(1.05) brightness(1); }
+}
+@keyframes gwall-flash-tint {
+  0%, 9%, 100% { opacity: 1; }
+  0.6%, 6% { opacity: 0; }
+}
+
+/* ===========================================================================
+   Sello de la medalla (SelloMedalla): al enviar un formulario cae como un
+   tampón — grande y transparente, golpe, un rebote corto y queda torcido.
+   =========================================================================== */
+@keyframes sello-golpe {
+  0% { opacity: 0; transform: scale(2.2) rotate(-28deg); }
+  55% { opacity: 1; transform: scale(0.92) rotate(-6deg); }
+  75% { transform: scale(1.04) rotate(-9deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-8deg); }
+}
+.sello-golpe {
+  animation: sello-golpe 0.6s cubic-bezier(0.3, 0, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sello-golpe { animation: none; transform: rotate(-8deg); }
+}

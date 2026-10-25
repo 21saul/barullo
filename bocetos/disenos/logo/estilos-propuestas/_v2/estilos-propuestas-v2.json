@@ -1,0 +1,24 @@
+{
+  "_colors": {
+    "SILVER": [0.92, 0.92, 0.94], "GOLD": [1.0, 0.71, 0.33], "GOLDM": [1.0, 0.71, 0.33], "ROSE": [0.97, 0.62, 0.52],
+    "OLDGOLD": [0.85, 0.6, 0.3], "BLACK": [0.03, 0.03, 0.035], "REDM": [0.72, 0.04, 0.03], "COPPER": [0.95, 0.5, 0.36],
+    "GUNMETAL": [0.22, 0.23, 0.25], "CANDY": [0.62, 0.015, 0.03],
+    "ROJOB": [0.79, 0.044, 0.027], "CARMIN": [0.55, 0.006, 0.027], "GRANATE": [0.195, 0.005, 0.012],
+    "BURDEOS": [0.068, 0.002, 0.005], "BERMELLON": [0.89, 0.054, 0.011], "CEREZA": [0.64, 0.001, 0.026],
+    "CORALR": [1.0, 0.10, 0.076], "ROSAROJO": [1.0, 0.078, 0.155], "LACA": [0.34, 0.011, 0.011],
+    "NARANJA": [0.92, 0.37, 0.045], "NEGRO": [0.01, 0.01, 0.012]
+  },
+  "_doc": "PROPUESTAS v2 (no aprobadas). esmalte puede ser una paleta [tono1, tono2, tono3] (patrones nuevos: llamas, rayos, contorno, rombos, mandala, granulado). relieve: true = dibujo en relieve. acabado: 'martillado'. gema [tipo, n]: n >= 6 añade un pavé de n gemas.",
+  "llamas-negro-oro":       {"metal": "BLACK",    "rough": 0.05, "letra": "rosetas", "medalla": "llamas",    "esmalte": ["CARMIN", "NARANJA", "ROJOB"],      "linea": "GOLDM",  "linea_metal": true,  "gema": ["granate", 1]},
+  "llamas-oro-relieve":     {"metal": "GOLD",     "rough": 0.07, "letra": "rosetas", "medalla": "llamas",    "esmalte": ["GRANATE", "BERMELLON", "CEREZA"],  "linea": null,     "linea_metal": false, "gema": ["rubi", 8], "relieve": true},
+  "rayos-plata-rojos":      {"metal": "SILVER",   "rough": 0.04, "letra": "rosetas", "medalla": "rayos",     "esmalte": ["ROJOB", "GRANATE", "BURDEOS"],     "linea": null,     "linea_metal": false, "gema": ["onix", 1]},
+  "rayos-rojo-caramelo":    {"metal": "CANDY",    "rough": 0.06, "letra": "rosetas", "medalla": "rayos",     "esmalte": ["NEGRO", "BURDEOS", "NEGRO"],       "linea": "SILVER", "linea_metal": true,  "gema": ["diamante", 8]},
+  "contorno-plata-carmin":  {"metal": "SILVER",   "rough": 0.05, "letra": "rosetas", "medalla": "contorno",  "esmalte": ["CARMIN", "GRANATE", "ROJOB"],      "linea": null,     "linea_metal": false, "gema": ["rubi", 1]},
+  "contorno-negro-burdeos": {"metal": "BLACK",    "rough": 0.05, "letra": "rosetas", "medalla": "contorno",  "esmalte": ["BURDEOS", "LACA", "CEREZA"],       "linea": "GOLDM",  "linea_metal": true,  "gema": ["granate", 10]},
+  "rombos-arlequin":        {"metal": "GOLD",     "rough": 0.07, "letra": "rosetas", "medalla": "rombos",    "esmalte": ["ROJOB", "NEGRO", "ROJOB"],         "linea": null,     "linea_metal": false, "gema": ["perla", 1]},
+  "rombos-pavonado-cereza": {"metal": "GUNMETAL", "rough": 0.12, "letra": "rosetas", "medalla": "rombos",    "esmalte": ["CEREZA", "CORALR", "CEREZA"],      "linea": "SILVER", "linea_metal": true,  "gema": ["rubi", 8], "acabado": "martillado"},
+  "mandala-cobre-granate":  {"metal": "COPPER",   "rough": 0.1,  "letra": "rosetas", "medalla": "mandala",   "esmalte": ["GRANATE", "ROJOB", "CORALR"],      "linea": null,     "linea_metal": false, "gema": ["granate", 1]},
+  "mandala-negro-plata":    {"metal": "BLACK",    "rough": 0.05, "letra": "rosetas", "medalla": "mandala",   "esmalte": ["ROJOB", "ROSAROJO", "CARMIN"],     "linea": "SILVER", "linea_metal": true,  "gema": ["diamante", 12]},
+  "granulado-oro-rosa":     {"metal": "ROSE",     "rough": 0.07, "letra": "rosetas", "medalla": "granulado", "esmalte": ["CARMIN", "ROJOB", "CORALR"],       "linea": null,     "linea_metal": false, "gema": ["rubi", 1], "relieve": true},
+  "rojo-martillado":        {"metal": "REDM",     "rough": 0.14, "letra": "rosetas", "medalla": "contorno",  "esmalte": ["BURDEOS", "GRANATE", "LACA"],      "linea": "GOLDM",  "linea_metal": true,  "gema": ["granate", 8], "acabado": "martillado"}
+}

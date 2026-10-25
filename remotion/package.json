@@ -1,0 +1,33 @@
+{
+  "name": "barullo-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hero animado y plantillas de Instagram de Barullo (Vigo). Paquete aislado de la app Next.",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render:hero": "node scripts/render-loop.mjs hero",
+    "render:character": "node scripts/render-loop.mjs character",
+    "render:character-pink": "node scripts/render-loop.mjs pink",
+    "render:character-vector": "node scripts/render-loop.mjs vector",
+    "render:story": "node scripts/render-template.mjs StoryEvent",
+    "render:flyer": "node scripts/render-template.mjs FlyerAnim",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.537",
+    "@remotion/three": "4.0.537",
+    "@remotion/zod-types": "4.0.537",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.537",
+    "three": "0.186.1",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/three": "0.186.0",
+    "typescript": "5.9.3"
+  }
+}

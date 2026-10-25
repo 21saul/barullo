@@ -1,0 +1,24 @@
+{
+  "_colors": {
+    "SILVER": [0.92, 0.92, 0.94], "GOLD": [1.0, 0.71, 0.33], "ROSE": [0.97, 0.62, 0.52],
+    "OLDGOLD": [0.85, 0.6, 0.3], "BLACK": [0.03, 0.03, 0.035], "REDM": [0.72, 0.04, 0.03],
+    "RED": [0.8, 0.03, 0.02], "TURQ": [0.03, 0.55, 0.55], "LAPIS": [0.03, 0.08, 0.5],
+    "EMERALD": [0.02, 0.38, 0.18], "PINK": [1.0, 0.75, 0.82], "GOLDLINE": [0.55, 0.42, 0.18]
+  },
+  "_doc": "metal, rough, letra (patron lettering), medalla (patron medalla), esmalte (null=paleta, 'none', o color), linea (null=niel o color), linea_metal, gema [tipo, n] o null",
+  "plata-grabada":         {"metal": "SILVER", "rough": 0.05, "letra": "rosetas",   "medalla": "rosetas",  "esmalte": "none",    "linea": null,       "linea_metal": false, "gema": null},
+  "plata-joya-rubi":       {"metal": "SILVER", "rough": 0.04, "letra": "todo",      "medalla": "rosa",     "esmalte": null,      "linea": null,       "linea_metal": false, "gema": ["rubi", 3]},
+  "plata-rosetas-rojo":    {"metal": "SILVER", "rough": 0.05, "letra": "rosetas",   "medalla": "rosetas",  "esmalte": "RED",     "linea": null,       "linea_metal": false, "gema": null},
+  "plata-escamas":         {"metal": "SILVER", "rough": 0.05, "letra": "escamas",   "medalla": "escamas",  "esmalte": null,      "linea": null,       "linea_metal": false, "gema": null},
+  "plata-lapislazuli":     {"metal": "SILVER", "rough": 0.06, "letra": "arabesco",  "medalla": "arabesco", "esmalte": "LAPIS",   "linea": "GOLDLINE", "linea_metal": true,  "gema": null},
+  "plata-zafiro":          {"metal": "SILVER", "rough": 0.05, "letra": "rosetas",   "medalla": "rosa",     "esmalte": "LAPIS",   "linea": null,       "linea_metal": false, "gema": ["zafiro", 3]},
+  "oro-girih-rubi":        {"metal": "GOLD",   "rough": 0.08, "letra": "girih",     "medalla": "girih",    "esmalte": null,      "linea": null,       "linea_metal": false, "gema": ["rubi", 3]},
+  "oro-turquesa":          {"metal": "OLDGOLD","rough": 0.16, "letra": "rosetas",   "medalla": "rosetas",  "esmalte": "TURQ",    "linea": null,       "linea_metal": false, "gema": ["turquesa", 3]},
+  "oro-esmeralda":         {"metal": "GOLD",   "rough": 0.08, "letra": "girih",     "medalla": "girih",    "esmalte": "EMERALD", "linea": null,       "linea_metal": false, "gema": ["esmeralda", 3]},
+  "oro-rosa-arabesco":     {"metal": "ROSE",   "rough": 0.07, "letra": "arabesco",  "medalla": "arabesco", "esmalte": null,      "linea": null,       "linea_metal": false, "gema": null},
+  "oro-rosa-coral":        {"metal": "ROSE",   "rough": 0.07, "letra": "escamas",   "medalla": "escamas",  "esmalte": null,      "linea": null,       "linea_metal": false, "gema": ["coral", 3]},
+  "oro-perlas":            {"metal": "GOLD",   "rough": 0.08, "letra": "arabesco",  "medalla": "arabesco", "esmalte": "TURQ",    "linea": null,       "linea_metal": false, "gema": ["perla", 3]},
+  "cromo-negro-guilloche": {"metal": "BLACK",  "rough": 0.05, "letra": "guilloche", "medalla": "sol",      "esmalte": "none",    "linea": "SILVER",   "linea_metal": true,  "gema": null},
+  "negro-rubi-plata":      {"metal": "BLACK",  "rough": 0.05, "letra": "rosetas",   "medalla": "rosetas",  "esmalte": "RED",     "linea": "SILVER",   "linea_metal": true,  "gema": ["rubi", 3]},
+  "rojo-girih-plata":      {"metal": "REDM",   "rough": 0.16, "letra": "girih",     "medalla": "girih",    "esmalte": "PINK",    "linea": "SILVER",   "linea_metal": true,  "gema": null}
+}

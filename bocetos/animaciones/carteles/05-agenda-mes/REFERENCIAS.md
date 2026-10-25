@@ -1,0 +1,18 @@
+# Agenda del mes · referencias
+
+Investigación del 21.10.2026 para el cartel/story de la agenda mensual. Amplía `00_INVESTIGACION/REFERENTES_Y_CURSOS.md`
+del escritorio (13.10), que ya recoge Tresor, OrtnerSchinko, Fondation Beyeler, Gonzo y Mondo.
+
+| Referencia | Qué hacen | Qué cogemos |
+|---|---|---|
+| **Tresor (Berlín)**, Vanja Golubovic + Onlab. [Eye Magazine, «Systems of nightlife»](https://eyemagazine.com/blog/post/systems-of-nightlife) · [It's Nice That](https://www.itsnicethat.com/articles/vanja-golubovic-techno-club-posters) | Unos 20 flyers al mes sobre plantillas que evolucionan. El tema cambia cada año y la rejilla se queda. Para marcar el día de la fiesta tachan los otros seis. | **Plantilla con datos**: un JSON por mes y el mismo sistema siempre. La rejilla se queda fija y se cambia el «mundo» (medalla, color) por noche. |
+| **OrtnerSchinko · The Future Sound (Linz)**. [It's Nice That](https://www.itsnicethat.com/articles/ortnerschinko) | Más de 50 carteles mensuales con una sola rejilla. Solo son fijas la línea base y las columnas, y la tipografía se escala y se corta. | Columnas fijas en la lista: franja, fecha, día, título y line-up, sala. El mes en Kufi a todo el ancho. |
+| **Fondation Beyeler** (sistema de calendario, Eunbee Lee) | Cada evento lleva una barra de color sobre la rejilla del mes. | **Un color por noche** (el de su medalla) en la franja, la fecha y la celda del horario. Se reconoce la noche por el color. |
+| **Mondo Club (Vigo)**: organización semanal en Instagram, con «Semana.01» y sellos por sala | Plantillas por semana con el mismo marco. | La story va **por semanas**: «SEMANA 01/04» y una barra de progreso de 4 segmentos, un tramo por semana. |
+| **Fabric / THUMP**: [guía para carteles de club que no den pena](https://www.vice.com/en/article/the-thump-guide-to-designing-club-posters-that-dont-look-terrible/) | Jerarquía: destaca solo lo que tiene que mirarse primero. Menos información es más. Nada de sombras ni tipos cutres. | Tres niveles y nada más: **fecha** (Kufi, color) → **género** (Archivo 800 ancho) → **line-up**. La sala y la hora van en mono pequeño. |
+| **Carruseles y stories de eventos** ([PosterMyWall](https://www.postermywall.com/blog/2026/06/19/instagram-carousel-posts-promote-upcoming-events/), [The Social Cat](https://influencerinsights.thesocialcat.com/p/instagram-carousels-working)) | Gancho → detalles → line-up → llamada a la acción. Texto pensado para el móvil, alto contraste y 2-3 fuentes. | La story va así: intro (logo + mes) → semanas → **el mes entero** (fotograma para hacer captura) → cierre «ENTRADAS · LINK EN BIO». Se usan 3 fuentes: Kufi, Archivo y Space Mono. |
+| **Cartel del mes anterior** (`04_CARTEL_DEL_MES/`, LISTA con sellos de rama) | Lista con sello, fecha en cúfico, día, line-up, rama y sala. | Mantenemos la lista, porque es la que más se lee. Cambian los sellos de rama planos por las **medallas 3D del catálogo** (`bocetos/disenos/logo/estilos/`), que son la familia de los carteles nuevos (medallones oro/turquesa). |
+| **Carteles de noviembre** (`bocetos/animaciones/carteles/01..03`) | Fecha gigante, objeto 3D y barra de datos en celdas sobre la alfombra LED. | La misma **alfombra LED** de fondo, muy tenue, y la **barra de datos en celdas** (estrella, sala y dirección, horario sobre el color). Así la agenda y los carteles de cada noche se ven de la misma familia. |
+
+Notas de legibilidad (móvil): el line-up de la story va a ≥ 5 % del ancho (54 px a 1080). En el feed, el título va a 36 px y el line-up a 22 px.
+Ninguna línea se corta: el componente `Fit` mide cada línea y la escala si no cabe. Los textos clave quedan fuera del 10 % superior e inferior de la story, que tapa la interfaz de Instagram.

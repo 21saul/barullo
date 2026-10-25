@@ -1,0 +1,12 @@
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test wide 40 16 50
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test narrow 40 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test wide 20 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test narrow 20 16 50
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final wide 0-89 eevee 64 100
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final wide 90-179 eevee 64 100
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final narrow 0-89 eevee 64 100
+Q=1 -- club/rug_hero.py -- C:/Users/Veintiuno/barullo-render/rug-fly/tex C:/Users/Veintiuno/barullo-render/heroes/club/final narrow 90-179 eevee 64 100
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test2 wide 40 16 50
+Q=1 -- entradas/bands.py -- C:/Users/Veintiuno/barullo-render/heroes/entradas/tex C:/Users/Veintiuno/barullo-render/heroes/entradas/test2 narrow 40 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test2 wide 20 16 50
+Q=1 -- contacto/neon.py -- C:/Users/Veintiuno/barullo-render/heroes/wordmark.json C:/Users/Veintiuno/barullo-render/heroes/contacto/test2 narrow 20 16 50

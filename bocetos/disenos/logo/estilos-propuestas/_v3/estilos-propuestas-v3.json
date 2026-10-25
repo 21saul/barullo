@@ -1,0 +1,26 @@
+{
+  "_colors": {
+    "SILVER": [0.92, 0.92, 0.94], "GOLD": [1.0, 0.71, 0.33], "GOLDM": [1.0, 0.71, 0.33], "ROSE": [0.97, 0.62, 0.52],
+    "BLACK": [0.03, 0.03, 0.035], "GUNMETAL": [0.22, 0.23, 0.25], "CANDY": [0.62, 0.015, 0.03],
+    "ANODAZUL": [0.05, 0.16, 0.62], "OBSID": [0.035, 0.012, 0.045],
+    "ROJOB": [0.79, 0.044, 0.027], "CARMIN": [0.55, 0.006, 0.027], "GRANATE": [0.195, 0.005, 0.012],
+    "BURDEOS": [0.068, 0.002, 0.005], "BERMELLON": [0.89, 0.054, 0.011], "CEREZA": [0.64, 0.001, 0.026], "LACA": [0.34, 0.011, 0.011],
+    "COBALTO": [0.0, 0.064, 0.416], "ULTRAMAR": [0.014, 0.028, 0.39], "NOCHE": [0.0034, 0.010, 0.068],
+    "CELESTE": [0.159, 0.473, 1.0], "PRUSIA": [0.0, 0.031, 0.087],
+    "CIRUELA": [0.105, 0.010, 0.068], "AMATISTAO": [0.069, 0.012, 0.147], "VINO": [0.112, 0.0033, 0.024],
+    "MAGENTAO": [0.27, 0.011, 0.102], "BERENJENA": [0.027, 0.005, 0.027]
+  },
+  "_doc": "PROPUESTAS v3 (no aprobadas). Fila 1 rojos (pulido), fila 2 azules (martillado), fila 3 obsidiana (cepillado). Columnas: A con hueco, grabado, grosor medio · B maciza, relieve, gruesa, profunda · C con hueco, fina, poco profunda, pavé · D maciza, muy gruesa, muy profunda. Claves nuevas: hueco (bool), grosor (extrusión, 0.17 = actual), profundidad (x grabado, 1 = actual), acabado martillado|cepillado.",
+  "rojo-a-llamas":      {"metal": "GOLD",     "rough": 0.05, "letra": "rosetas", "medalla": "llamas",   "esmalte": ["CARMIN", "BERMELLON", "ROJOB"],     "linea": null,     "linea_metal": false, "gema": ["rubi", 1],       "hueco": true,  "grosor": 0.17, "profundidad": 1.0},
+  "rojo-b-rayos":       {"metal": "SILVER",   "rough": 0.03, "letra": "rosetas", "medalla": "rayos",    "esmalte": ["ROJOB", "GRANATE", "BURDEOS"],      "linea": null,     "linea_metal": false, "gema": ["granate", 1],    "hueco": false, "grosor": 0.28, "profundidad": 1.8, "relieve": true},
+  "rojo-c-rombos":      {"metal": "CANDY",    "rough": 0.04, "letra": "rosetas", "medalla": "rombos",   "esmalte": ["CEREZA", "LACA", "CEREZA"],         "linea": "GOLDM",  "linea_metal": true,  "gema": ["rubi", 10],      "hueco": true,  "grosor": 0.08, "profundidad": 0.5},
+  "rojo-d-girih":       {"metal": "BLACK",    "rough": 0.03, "letra": "girih",   "medalla": "girih",    "esmalte": ["ROJOB", "CARMIN", "GRANATE"],       "linea": "GOLDM",  "linea_metal": true,  "gema": ["rubi", 1],       "hueco": false, "grosor": 0.32, "profundidad": 2.2},
+  "azul-a-escamas":     {"metal": "SILVER",   "rough": 0.07, "letra": "escamas", "medalla": "escamas",  "esmalte": ["COBALTO", "ULTRAMAR", "CELESTE"],   "linea": null,     "linea_metal": false, "gema": ["zafiro", 1],     "hueco": true,  "grosor": 0.17, "profundidad": 1.0, "acabado": "martillado"},
+  "azul-b-contorno":    {"metal": "ANODAZUL", "rough": 0.08, "letra": "rosetas", "medalla": "contorno", "esmalte": ["NOCHE", "PRUSIA", "CELESTE"],      "linea": "SILVER", "linea_metal": true,  "gema": ["aguamarina", 1], "hueco": false, "grosor": 0.28, "profundidad": 1.8, "relieve": true, "acabado": "martillado"},
+  "azul-c-granulado":   {"metal": "GUNMETAL", "rough": 0.1,  "letra": "rosetas", "medalla": "granulado","esmalte": ["COBALTO", "CELESTE", "ULTRAMAR"],   "linea": null,     "linea_metal": false, "gema": ["diamante", 12],  "hueco": true,  "grosor": 0.08, "profundidad": 0.5, "acabado": "martillado"},
+  "azul-d-arabesco":    {"metal": "SILVER",   "rough": 0.07, "letra": "arabesco","medalla": "arabesco", "esmalte": ["NOCHE", "COBALTO", "ULTRAMAR"],     "linea": null,     "linea_metal": false, "gema": ["zafiro", 1],     "hueco": false, "grosor": 0.32, "profundidad": 2.2, "acabado": "martillado"},
+  "obsidiana-a-mandala":{"metal": "OBSID",    "rough": 0.12, "letra": "rosetas", "medalla": "mandala",  "esmalte": ["CIRUELA", "VINO", "MAGENTAO"],      "linea": null,     "linea_metal": false, "gema": ["amatista", 1],   "hueco": true,  "grosor": 0.17, "profundidad": 1.0, "acabado": "cepillado"},
+  "obsidiana-b-sol":    {"metal": "OBSID",    "rough": 0.12, "letra": "guilloche","medalla": "sol",     "esmalte": "none",                               "linea": "ROSE",   "linea_metal": true,  "gema": ["espinela", 1],   "hueco": false, "grosor": 0.28, "profundidad": 1.8, "relieve": true, "acabado": "cepillado"},
+  "obsidiana-c-rosa":   {"metal": "OBSID",    "rough": 0.12, "letra": "rosetas", "medalla": "rosa",     "esmalte": ["AMATISTAO", "VINO", "BERENJENA"],   "linea": null,     "linea_metal": false, "gema": ["granate", 10],   "hueco": true,  "grosor": 0.08, "profundidad": 0.5, "acabado": "cepillado"},
+  "obsidiana-d-rosetas":{"metal": "OBSID",    "rough": 0.12, "letra": "rosetas", "medalla": "rosetas",  "esmalte": ["MAGENTAO", "CIRUELA", "VINO"],      "linea": "ROSE",   "linea_metal": true,  "gema": ["espinela", 1],   "hueco": false, "grosor": 0.32, "profundidad": 2.2, "acabado": "cepillado"}
+}

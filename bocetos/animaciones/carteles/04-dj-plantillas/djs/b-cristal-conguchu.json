@@ -1,0 +1,25 @@
+{
+  "anio": "2026",
+  "dia": "VIERNES",
+  "sala": {
+    "nombre": "KINGSTON CLUB",
+    "direccion": "RÚA ROGELIO ABALDE 18",
+    "ciudad": "VIGO",
+    "horario": "1:00 — 4:30"
+  },
+  "medalla": "oro-turquesa",
+  "variantes": 6,
+  "dj": "CONGUCHU",
+  "rol": "DJ SET",
+  "genero": "ELECTRÓNICA · BREAKS",
+  "foto": "dj-cascos-violeta",
+  "encuadre": {
+    "x": 0.45,
+    "y": 0.36,
+    "zoom": 1.0
+  },
+  "fecha": "20.11",
+  "semana": "NOVIEMBRE · SEMANA 03",
+  "color": "#E63B2E",
+  "color2": "#FF6A4D"
+}
